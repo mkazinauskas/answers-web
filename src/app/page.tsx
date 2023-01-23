@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <section className="min-h-96 flex justify-center items-center flex-1 shrink-0 bg-gray-100 overflow-hidden shadow-lg rounded-lg relative py-16 md:py-20 xl:py-48">
-      <img src={"/home/random/section" + Math.floor(Math.random() * 3) + ".jpeg"} loading="lazy" alt="Answers section main photo" className="w-full h-full object-cover object-center absolute inset-0" />
+      <img src={"/home/random/section" + Math.floor(Math.random() * 5) + ".jpeg"} loading="lazy" alt="Answers section main photo" className="w-full h-full object-cover object-center absolute inset-0" />
       <div className="bg-indigo-500 mix-blend-multiply absolute inset-0"></div>
 
       <div className="sm:max-w-4xl flex flex-col items-center relative p-4">
